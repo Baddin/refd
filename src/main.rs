@@ -151,7 +151,6 @@ mod tests {
         let s = Search::new("test".to_string(), "fun".to_string());
 
         println!("{:?}", s.search());
-        dbg!(s.search());
 
         let result = s.search();
 
